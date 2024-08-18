@@ -1,3 +1,7 @@
+package src.mode1.conta;
+
+import src.mode1.Cliente;
+
 public class ContaCorrente extends Conta {
     public ContaCorrente(Cliente cliente) {
         super(cliente);

@@ -1,5 +1,8 @@
+package src.mode1.conta;
 import java.util.ArrayList;
 import java.util.List;
+
+import src.mode1.Cliente;
 
 public abstract class Conta implements IConta {
     private static final int AGENCIA_PADRAO = 1;

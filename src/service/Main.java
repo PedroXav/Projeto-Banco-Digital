@@ -1,10 +1,17 @@
+package src.service;
+
+import src.mode1.Cliente;
+import src.mode1.conta.Conta;
+import src.mode1.conta.ContaCorrente;
+import src.mode1.conta.ContaPoupanca;
+
 public class Main {
     public static void main(String[] args) {
         Cliente cliente1 = new Cliente();
-        cliente1.setNome("Venilton");
-        cliente1.setCpf("123.456.789-00");
-        cliente1.setEndereco("Rua Exemplo, 123");
-        cliente1.setTelefone("(11) 1234-5678");
+        cliente1.setNome("Jair");
+        cliente1.setCpf("223-123-709-52");
+        cliente1.setEndereco("Rua Gericó, 156");
+        cliente1.setTelefone("(11) 99550-3543");
 
         Conta cc = new ContaCorrente(cliente1);
         Conta poupanca = new ContaPoupanca(cliente1);

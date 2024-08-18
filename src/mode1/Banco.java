@@ -1,5 +1,8 @@
+package src.mode1;
 import java.util.ArrayList;
 import java.util.List;
+
+import src.mode1.conta.Conta;
 
 public class Banco {
     private String nome;

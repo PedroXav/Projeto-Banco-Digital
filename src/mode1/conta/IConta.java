@@ -1,3 +1,4 @@
+package src.mode1.conta;
 public interface IConta {
      void sacar(double valor);
      void depositar(double valor);

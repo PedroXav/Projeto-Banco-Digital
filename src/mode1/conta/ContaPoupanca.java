@@ -1,3 +1,7 @@
+package src.mode1.conta;
+
+import src.mode1.Cliente;
+
 public class ContaPoupanca extends Conta {
     public ContaPoupanca(Cliente cliente) {
         super(cliente);
